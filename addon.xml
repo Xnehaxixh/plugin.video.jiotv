@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.jiotv" name="JioTV" version="2.4.0~SonyFix" provider-name="tobalan">
+<addon id="plugin.video.jiotv" name="JioTV" version="2.4.1" provider-name="tobalan">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.codequick" version="1.0.2" />
@@ -24,10 +24,13 @@
         <email>kodi@botallen.com</email>
         <source>https://github.com/tobalan/plugin.video.jiotv</source>
         <news>
+            [- 2.4.1 -]
+            [added] 4th folder "Tree View (Genres -> Languages)", what it does? it will list genres, go in any then list language and in end list all channel with genre and language both match
+
             [- 2.4.0 -]
             [added] Sony Network HD Channels
             [fixed] Cartoon Network HD+ Tamil, Zee Tamil HD, News 18 Kannada
-
+            
             [- 2.3.9 -]
             [added] Revamped settings.xml and added strings.po
 
